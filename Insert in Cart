@@ -1,0 +1,5 @@
+{%- if cart.item_count > 0 -%}
+<div class="confirmationwrap">
+            <p> {{ 'cart.general.confirmation_html' | t }}</p>
+          </div>
+      {%- endif -%}
