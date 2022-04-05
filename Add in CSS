@@ -1,0 +1,19 @@
+.confirmationwrap {
+  background: #F2F0F3;
+  padding: 8px;
+  margin-top: 12px;
+}
+.confirmationwrap p {
+  font-family: var(--typeHeaderPrimary),var(--typeHeaderFallback);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  /* or 160% */
+  text-align: center;
+  margin-bottom: 0px;
+  color: #272528;
+}
+.confirmationwrap p .goodchoice {
+  color: #89D48E !important;
+}
